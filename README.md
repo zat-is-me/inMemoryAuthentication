@@ -17,9 +17,8 @@ This application is build on Spring Boot 3.2.3
 2. Then create PasswordEncoder bean
 
 
-   
      @Bean
-      public PasswordEncoder passwordEncoder() {
+     public PasswordEncoder passwordEncoder() {
           return NoOpPasswordEncoder.getInstance();
       }     
 
